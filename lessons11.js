@@ -3,8 +3,5 @@
  */
 !function(){
 
-	console.log("\nasdas\n44".match(/^\d/)); //null
-	console.log("\nasdas\n44".match(/^\d/m)); // 44
-	console.log("asdas44dd".match(/^\d/)); //null
-	console.log("1asdasdd".match(/^\d/)); //1
+	console.log("11232".match(/^.{2,5}/)); //
 }();
