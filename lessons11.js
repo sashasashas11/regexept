@@ -3,6 +3,8 @@
  */
 !function(){
 
-	console.log("yjsk23ha".match(/[^as\d]+/g));
+	console.log("1max asd sergiy".match(/max | sergiy/g)); // max , sergiy
+	console.log("max asd sergiy".match(/\d(max | sergiy)/g)); //null
+	console.log("1max asd sergiy".match(/\d(max | sergiy)/g)); //1max
 
 }();
