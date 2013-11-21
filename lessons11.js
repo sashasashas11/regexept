@@ -3,5 +3,6 @@
  */
 !function(){
 
-	console.log("11232".match(/^.{2,5}/)); //
+	console.log("yjsk23ha".match(/[as\d]+/g));
+
 }();
