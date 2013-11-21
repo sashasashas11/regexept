@@ -4,7 +4,7 @@
 !function(){
 	"asd".toLowerCase();
 	/d/.test();
-	
+	if (/a/.test(email))
 
 	var first = /./g,
 		second = new RegExp('.', 'g');
