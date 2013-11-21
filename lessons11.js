@@ -3,6 +3,6 @@
  */
 !function(){
 
-	console.log("yjsk23ha".match(/[as\d]+/g));
+	console.log("yjsk23ha".match(/[^as\d]+/g));
 
 }();
