@@ -3,8 +3,6 @@
  */
 !function(){
 
-	console.log("1max asd sergiy".match(/max | sergiy/g)); // max , sergiy
-	console.log("max asd sergiy".match(/\d(max | sergiy)/g)); //null
-	console.log("1max asd sergiy".match(/\d(max | sergiy)/g)); //1max
+	console.log("23px solid #rad".match(/(?:\d+ | asd)px #(\w+)/)); //"23px", "23"
 
 }();
