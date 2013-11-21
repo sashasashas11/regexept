@@ -3,6 +3,7 @@
  */
 !function(){
 
-	console.log("23px solid #rad".match(/(?:\d+ | asd)px #(\w+)/)); //"23px", "23"
+	console.log("solid 23px #rad".match(/(?:\d+|asd)px #(\w+)/)); //"23px", "23"
+	console.log("solid 23px #rad".match(/(?:\d+|asd)px #([a-z])/)); //"23px", "23"
 
 }();
