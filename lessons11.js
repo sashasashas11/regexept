@@ -3,5 +3,5 @@
  */
 !function(){
 
-	console.log("solid 23px #rad".replace(/\d+px #(\w+)/, '$1sergey')); 
+	console.log("solid 23px #rad".replace(/\d+px #(\w+)/, '$1sergey'));
 }();
